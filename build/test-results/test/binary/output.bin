@@ -1,0 +1,224 @@
+Request method:	POST
+-Request URI:	https://todo.ly/api/items.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+HHeaders:		Authorization=Basic YmFsZHViZXRvQGdtYWlsLmNvbToxMjM0NTY3ODk=
+				Accept=*/*
+1				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"Content":"Cato2022"}
+HTTP/1.1 200 OK
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+/Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+XSet-Cookie: ASP.NET_SessionId=co4vouttxoq00amgdysqussm; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+%Date: Sat, 08 Oct 2022 21:53:46 GMT
+Content-Length: 529
+
+{
+    "Id": 11064982,
+    "Content": "Cato2022",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
+    "ParentId": null,
+    "Path": "",
+    "Collapsed": false,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+3    "LastSyncedDateTime": "/Date(1665266026624)/",
+    "Children": [
+	        
+    ],
+    "DueDateTime": null,
+,    "CreatedDate": "/Date(1665266026577)/",
+    "LastCheckedDate": null,
+0    "LastUpdatedDate": "/Date(1665266026593)/",
+    "Deleted": false,
+    "Notes": "",
+    "InHistory": false,
+"    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 705562
+}
+Request method:	PUT
+6Request URI:	https://todo.ly/api/items/11064982.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+HHeaders:		Authorization=Basic YmFsZHViZXRvQGdtYWlsLmNvbToxMjM0NTY3ODk=
+				Accept=*/*
+1				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"Content":"CatoUpdated2022"}
+HTTP/1.1 200 OK
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+/Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+XSet-Cookie: ASP.NET_SessionId=gkrrwo2engakl1tstw4lyjvv; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+%Date: Sat, 08 Oct 2022 21:53:48 GMT
+Content-Length: 536
+
+{
+    "Id": 11064982,
+"    "Content": "CatoUpdated2022",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
+    "ParentId": null,
+    "Path": "",
+    "Collapsed": false,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+3    "LastSyncedDateTime": "/Date(1665266028511)/",
+    "Children": [
+	        
+    ],
+    "DueDateTime": null,
+,    "CreatedDate": "/Date(1665266026577)/",
+    "LastCheckedDate": null,
+0    "LastUpdatedDate": "/Date(1665266028497)/",
+    "Deleted": false,
+    "Notes": "",
+    "InHistory": false,
+"    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 705562
+}
+Request method:	GET
+6Request URI:	https://todo.ly/api/items/11064982.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+HHeaders:		Authorization=Basic YmFsZHViZXRvQGdtYWlsLmNvbToxMjM0NTY3ODk=
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+/Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+XSet-Cookie: ASP.NET_SessionId=4gduq0ifmcixpkdrvoifdehf; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+%Date: Sat, 08 Oct 2022 21:53:49 GMT
+Content-Length: 536
+
+{
+    "Id": 11064982,
+"    "Content": "CatoUpdated2022",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
+    "ParentId": null,
+    "Path": "",
+    "Collapsed": false,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+3    "LastSyncedDateTime": "/Date(1665266029759)/",
+    "Children": [
+	        
+    ],
+    "DueDateTime": null,
+,    "CreatedDate": "/Date(1665266026577)/",
+    "LastCheckedDate": null,
+0    "LastUpdatedDate": "/Date(1665266028497)/",
+    "Deleted": false,
+    "Notes": "",
+    "InHistory": false,
+"    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 705562
+}
+Request method:	DELETE
+6Request URI:	https://todo.ly/api/items/11064982.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+HHeaders:		Authorization=Basic YmFsZHViZXRvQGdtYWlsLmNvbToxMjM0NTY3ODk=
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+/Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+XSet-Cookie: ASP.NET_SessionId=zbfmdnrrzvvgcvrgyqlxquzk; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+%Date: Sat, 08 Oct 2022 21:53:50 GMT
+Content-Length: 535
+
+{
+    "Id": 11064982,
+"    "Content": "CatoUpdated2022",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
+    "ParentId": null,
+    "Path": "",
+    "Collapsed": false,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+3    "LastSyncedDateTime": "/Date(1665266030991)/",
+    "Children": [
+	        
+    ],
+    "DueDateTime": null,
+,    "CreatedDate": "/Date(1665266026577)/",
+    "LastCheckedDate": null,
+0    "LastUpdatedDate": "/Date(1665266030977)/",
+    "Deleted": true,
+    "Notes": "",
+    "InHistory": false,
+"    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 705562
+}
